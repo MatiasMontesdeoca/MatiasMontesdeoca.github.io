@@ -1,25 +1,512 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
+
+    <!-- =========================================
+         META INFORMATION
+    ========================================== -->
+
     <meta charset="UTF-8">
-    <title>Matías Montesdeoca</title>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Matías Montesdeoca | Mechatronics Engineering Student
+    </title>
+
+    <meta
+        name="description"
+        content="Portfolio of Matías Montesdeoca, Mechatronics Engineering student at ESPOL, interested in robotics, programming and automation.">
+
+    <!-- Favicon (to be added later) -->
+    <!-- <link rel="icon" href="images/icons/favicon.ico"> -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css">
+
+    <link
+        rel="stylesheet"
+        href="css/responsive.css">
+
 </head>
 
 <body>
 
-<h1>Hola, soy Matías Montesdeoca</h1>
+    <!-- =========================================
+         HEADER
+    ========================================== -->
 
-<h2>Estudiante de Ingeniería Mecatrónica - ESPOL</h2>
+    <header>
 
-<p>
-Bienvenido a mi portafolio.
-</p>
+        <div class="header-info">
 
-<h2>Proyectos</h2>
+            <h1>Matías Montesdeoca</h1>
 
-<ul>
+            <p>Mechatronics Engineering Student</p>
 
-</ul>
+        </div>
+
+        <nav class="navbar">
+
+            <a href="#home">Home</a>
+
+            <a href="#about">About</a>
+
+            <a href="#skills">Skills</a>
+
+            <a href="#projects">Projects</a>
+
+            <a href="#education">Education</a>
+
+            <a href="#certifications">Certifications</a>
+
+            <a href="#contact">Contact</a>
+
+            <button id="theme-toggle">
+                🌙
+            </button>
+
+            <button id="language-toggle">
+                🌐 ES
+            </button>
+
+        </nav>
+
+    </header>
+
+    <!-- =========================================
+         MAIN
+    ========================================== -->
+
+    <main>
+
+        <!-- =====================================
+             HERO
+        ====================================== -->
+
+        <section id="home" class="hero">
+
+            <div class="container hero-container">
+
+                <div class="hero-image">
+
+                    <img
+                        src="images/profile/profile-photo.jpeg"
+                        alt="Portrait of Matías Montesdeoca"
+                        loading="eager">
+
+                </div>
+
+                <div class="hero-content">
+
+                    <p>Hi, I'm</p>
+
+                    <h2>Matías Montesdeoca</h2>
+
+                    <h3>Mechatronics Engineering Student</h3>
+
+                    <p>
+                        Mechatronics Engineering student at ESPOL passionate
+                        about robotics, automation, software development and
+                        mechanical design. I enjoy solving multidisciplinary
+                        engineering challenges through innovative and practical
+                        solutions.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects">
+                            View Projects
+                        </a>
+
+                        <a
+                            href="assets/cv/CV_EN.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            Download CV
+
+                        </a>
+
+                    </div>
+
+                    <div class="social-links">
+
+                        <a
+                            href="https://github.com/MatiasMontesdeoca"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            GitHub
+
+                        </a>
+
+                        <a
+                            href="https://linkedin.com/in/TU-LINKEDIN"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            LinkedIn
+
+                        </a>
+
+                        <a href="mailto:mathiasxmontesdeoca@gmail.com">
+
+                            Email
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =====================================
+             ABOUT
+        ====================================== -->
+
+        <section id="about" class="about">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2>About Me</h2>
+
+                    <p>
+                        Get to know more about my academic background,
+                        interests and professional goals.
+                    </p>
+
+                </div>
+
+                <div class="about-content">
+
+                    <p>
+                        I am a Mechatronics Engineering student at ESPOL
+                        passionate about robotics, automation, software
+                        development and mechanical design. I enjoy solving
+                        multidisciplinary engineering problems by combining
+                        programming, electronics and mechanical systems.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =====================================
+             SKILLS
+        ====================================== -->
+
+        <section id="skills" class="skills">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2>Technical Skills</h2>
+
+                    <p>
+                        Technologies, software and engineering tools
+                        I have worked with.
+                    </p>
+
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="card skill-card">
+
+                        <h3>Programming</h3>
+
+                        <ul>
+
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>Git</li>
+                            <li>GitHub</li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="card skill-card">
+
+                        <h3>CAD & Design</h3>
+
+                        <ul>
+
+                            <li>Inventor</li>
+                            <li>SolidWorks</li>
+                            <li>AutoCAD</li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="card skill-card">
+
+                        <h3>Electronics</h3>
+
+                        <ul>
+
+                            <li>Arduino IDE</li>
+                            <li>Quartus</li>
+                            <li>Multisim</li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="card skill-card">
+
+                        <h3>Engineering</h3>
+
+                        <ul>
+
+                            <li>Mechanical Design</li>
+                            <li>Numerical Methods</li>
+                            <li>Digital Systems</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =====================================
+             PROJECTS
+        ====================================== -->
+
+        <section id="projects" class="projects">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2>Featured Projects</h2>
+
+                    <p>
+                        A selection of academic and engineering
+                        projects completed during my studies.
+                    </p>
+
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="card project-card">
+
+                        <h3>Restaurant Management System</h3>
+
+                        <p>
+                            Java object-oriented console application.
+                        </p>
+
+                        <a href="projects/restaurant.html">
+
+                            View Project →
+
+                        </a>
+
+                    </article>
+
+                    <article class="card project-card">
+
+                        <h3>Robotic Arm CAD</h3>
+
+                        <p>
+                            Mechanical modeling using Autodesk Inventor.
+                        </p>
+
+                        <a href="projects/robotic-arm.html">
+
+                            View Project →
+
+                        </a>
+
+                    </article>
+
+                    <article class="card project-card">
+
+                        <h3>Electromagnetic Brake</h3>
+
+                        <p>
+                            Electromagnetic braking and energy generation
+                            system.
+                        </p>
+
+                        <a href="projects/electromagnetic-brake.html">
+
+                            View Project →
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =====================================
+             EDUCATION
+        ====================================== -->
+
+        <section id="education" class="education">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2>Education</h2>
+
+                </div>
+
+                <div class="card education-card">
+
+                    <h3>
+                        Escuela Superior Politécnica del Litoral (ESPOL)
+                    </h3>
+
+                    <p>B.Sc. in Mechatronics Engineering</p>
+
+                    <p>2023 – Present</p>
+
+                    <p>Expected Graduation: 2028–2029</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =====================================
+             CERTIFICATIONS
+        ====================================== -->
+
+        <section id="certifications" class="certifications">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2>Certifications</h2>
+
+                </div>
+
+                <div class="card certification-card">
+
+                    <h3>EF SET English Certificate</h3>
+
+                    <p>English Level: C1 Advanced</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =====================================
+             CONTACT
+        ====================================== -->
+
+        <section id="contact" class="contact">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2>Let's Connect</h2>
+
+                    <p>
+                        Feel free to contact me for internships,
+                        collaborations or engineering opportunities.
+                    </p>
+
+                </div>
+
+                <div class="contact-links">
+
+                    <a href="mailto:mathiasxmontesdeoca@gmail.com">
+
+                        Email
+
+                    </a>
+
+                    <a
+                        href="https://github.com/MatiasMontesdeoca"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        GitHub
+
+                    </a>
+
+                    <a
+                        href="TU_LINKEDIN"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        LinkedIn
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © 2026 Matías Montesdeoca
+            </p>
+
+            <p>
+                Built with HTML5, CSS3 & JavaScript.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- =========================================
+         SCRIPTS
+    ========================================== -->
+
+    <!--
+    <script src="translations/en.js"></script>
+    <script src="translations/es.js"></script>
+
+    <script src="js/language.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="js/app.js"></script>
+    -->
 
 </body>
+
 </html>
