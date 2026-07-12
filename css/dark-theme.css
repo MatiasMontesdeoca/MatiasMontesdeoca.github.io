@@ -1,0 +1,36 @@
+body.dark-theme{
+
+    --background-color: #0F172A;
+
+    --surface-color: #1E293B;
+
+    --text-color: #F8FAFC;
+
+    --text-secondary: #CBD5E1;
+
+    --border-color: #334155;
+
+}
+
+.project-status.completed{
+
+    background:#dcfce7;
+
+    color:#16a511;
+
+}
+
+.project-status.in-progress{
+
+    background:#dcfce7;
+
+    color:#bd4703;
+
+}
+
+.project-status.planned{
+
+    background:#dcfce7;
+
+    color:#0400ff;
+}
