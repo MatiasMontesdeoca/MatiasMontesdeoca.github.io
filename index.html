@@ -42,46 +42,47 @@
 
     <header>
 
-        <div class="header-info">
+        <div class="container header-container">
 
-            <h1>Matías Montesdeoca</h1>
+            <div class="header-info">
 
-            <p>Mechatronics Engineering Student</p>
+                <h1>Matías Montesdeoca</h1>
 
+                <p>Mechatronics Engineering Student</p>
+
+            </div>
+
+            <nav class="navbar">
+
+                <a href="#home">Home</a>
+
+                <a href="#about">About</a>
+
+                <a href="#skills">Skills</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#education">Education</a>
+
+                <a href="#certifications">Certifications</a>
+
+                <a href="#contact">Contact</a>
+
+                <button id="theme-toggle">
+                    🌙
+                </button>
+
+                <button id="language-toggle">
+                    🌐 ES
+                </button>
+
+            </nav>
         </div>
-
-        <nav class="navbar">
-
-            <a href="#home">Home</a>
-
-            <a href="#about">About</a>
-
-            <a href="#skills">Skills</a>
-
-            <a href="#projects">Projects</a>
-
-            <a href="#education">Education</a>
-
-            <a href="#certifications">Certifications</a>
-
-            <a href="#contact">Contact</a>
-
-            <button id="theme-toggle">
-                🌙
-            </button>
-
-            <button id="language-toggle">
-                🌐 ES
-            </button>
-
-        </nav>
-
     </header>
 
     <!-- =========================================
          MAIN
     ========================================== -->
-
     <main>
 
         <!-- =====================================
@@ -103,28 +104,69 @@
 
                 <div class="hero-content">
 
-                    <p>Hi, I'm</p>
+                    <p class="hero-greeting">
 
-                    <h2>Matías Montesdeoca</h2>
+                        Hi, I'm
 
-                    <h3>Mechatronics Engineering Student</h3>
+                    </p>
 
-                    <p>
+                    <h2 class="hero-title">
+
+                        Matías Montesdeoca
+
+                    </h2>
+
+                    <h3 class="hero-subtitle">
+
+                        Mechatronics Engineering Student
+
+                    </h3>
+
+                    <div class="hero-highlights">
+
+                        <span class="highlight-item">
+
+                            📍 Guayaquil, Ecuador
+
+                        </span>
+
+                        <span class="highlight-item">
+
+                            🎓 ESPOL
+
+                        </span>
+
+                        <span class="highlight-item">
+
+                            💼 Looking for Opportunities to Gain Proffesional Experience
+
+                        </span>
+
+                    </div>
+
+                    <p class="hero-description">
+
                         Mechatronics Engineering student at ESPOL passionate
                         about robotics, automation, software development and
                         mechanical design. I enjoy solving multidisciplinary
                         engineering challenges through innovative and practical
                         solutions.
+
                     </p>
 
                     <div class="hero-buttons">
 
-                        <a href="#projects">
+                        <a
+                            href="#projects"
+                            class="button button-primary">
+
                             View Projects
+
                         </a>
 
                         <a
-                            href="assets/cv/CV_EN.pdf"
+                            href="documents/CV_EN.pdf"
+                            class="button button-secondary"
                             target="_blank"
                             rel="noopener noreferrer">
 
@@ -166,7 +208,8 @@
 
             </div>
 
-        </section>
+        </section>ERO
+
 
         <!-- =====================================
              ABOUT
@@ -189,18 +232,18 @@
 
                 <div class="about-content">
 
-                    <p>
-                        I am a Mechatronics Engineering student at ESPOL
-                        passionate about robotics, automation, software
-                        development and mechanical design. I enjoy solving
-                        multidisciplinary engineering problems by combining
-                        programming, electronics and mechanical systems.
-                    </p>
+                    <div class="about-description">
 
+                        <p class="about-description">
+                            I am a Mechatronics Engineering student at ESPOL
+                            passionate about robotics, automation, software
+                            development and mechanical design. I enjoy solving
+                            multidisciplinary engineering problems by combining
+                            programming, electronics and mechanical systems.
+                        </p>
+                    </div>
                 </div>
-
             </div>
-
         </section>
 
         <!-- =====================================
@@ -222,18 +265,26 @@
 
                 </div>
 
-                <div class="skills-grid">
+                <div class="grid skills-grid">
 
                     <div class="card skill-card">
 
-                        <h3>Programming</h3>
+                        <h3>💻 Programming</h3>
 
                         <ul>
 
-                            <li>Java</li>
-                            <li>Python</li>
-                            <li>Git</li>
-                            <li>GitHub</li>
+                            <li><strong>Java</strong>
+                                <li>- Object-Oriented Programming (OOP)</li>
+                            </li>
+                            <li><strong>Python</strong>
+
+                            </li>
+                            <li><strong>Git</strong>
+                            
+                            </li>
+                            <li><strong>GitHub</strong>
+                            
+                            </li>
 
                         </ul>
 
@@ -241,13 +292,23 @@
 
                     <div class="card skill-card">
 
-                        <h3>CAD & Design</h3>
+                        <h3>🔩 CAD & Design</h3>
 
                         <ul>
 
-                            <li>Inventor</li>
-                            <li>SolidWorks</li>
-                            <li>AutoCAD</li>
+                            <li><strong>Inventor</strong>
+                                <li>- 3D modeling and assembly.</li>
+                                <li>- Plan and section view.</li>
+                                <li>- Simulations.</li>
+                            </li>
+                            <li><strong>SolidWorks</strong>
+                                <li>- 3D modeling and assembly.</li>
+                                <li>- Plan and section view.</li>
+                                <li>- Simulations.</li>
+                            </li>
+                            <li><strong>AutoCAD</strong>
+                                <li>- Plan and section view.</li>
+                            </li>
 
                         </ul>
 
@@ -255,13 +316,19 @@
 
                     <div class="card skill-card">
 
-                        <h3>Electronics</h3>
+                        <h3>🔌 Electronics</h3>
 
                         <ul>
 
-                            <li>Arduino IDE</li>
-                            <li>Quartus</li>
-                            <li>Multisim</li>
+                            <li><strong>Arduino IDE</strong>
+                            
+                            </li>
+                            <li><strong>Quartus</strong>
+                            
+                            </li>
+                            <li><strong>Multisim</strong>
+                            
+                            </li>
 
                         </ul>
 
@@ -269,27 +336,46 @@
 
                     <div class="card skill-card">
 
-                        <h3>Engineering</h3>
+                        <h3>⚙️ Engineering</h3>
 
                         <ul>
 
-                            <li>Mechanical Design</li>
-                            <li>Numerical Methods</li>
-                            <li>Digital Systems</li>
+                            <li><strong>Mechanical Design</strong>
+                            
+                            </li>
+                            <li><strong>Numerical Methods</strong>
+                            
+                            </li>
+                            <li><strong>Digital Systems</strong>
+                            
+                            </li>
 
                         </ul>
 
                     </div>
 
+                    <div class="card skill-card">
+                        
+                        <h3>🌎 Languages</h3>
+
+                        <ul>
+
+                            <li><strong>Spanish</strong> 
+                                <li>(Native)</li>
+                            </li>
+                            <li><strong>English</strong> 
+                                <li>(C1)</li>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
-
             </div>
-
         </section>
 
         <!-- =====================================
-             PROJECTS
-        ====================================== -->
+            PROJECTS
+        ===================================== -->
 
         <section id="projects" class="projects">
 
@@ -297,65 +383,160 @@
 
                 <div class="section-header">
 
-                    <h2>Featured Projects</h2>
+                    <h2 class="section-title">
 
-                    <p>
-                        A selection of academic and engineering
-                        projects completed during my studies.
+                        Featured Projects
+
+                    </h2>
+
+                    <p class="section-description">
+
+                        A selection of academic and personal engineering projects
+                        demonstrating my experience in programming, electronics,
+                        CAD design and robotics.
+
                     </p>
 
                 </div>
 
-                <div class="projects-grid">
+                <article class="card project-card">
 
-                    <article class="card project-card">
+                    <!-- Project Cover -->
 
-                        <h3>Restaurant Management System</h3>
+                    <div class="project-image">
 
-                        <p>
-                            Java object-oriented console application.
+                        <img
+                            src="images/projects/restaurant-system/cover.png"
+                            alt="Restaurant Management System Cover">
+
+                    </div>
+
+                    <!-- Project Information -->
+
+                    <div class="project-content">
+
+                        <!-- Project Type & Year -->
+
+                        <div class="project-header">
+
+                            <span class="project-type">
+
+                                💻 Academic Project
+
+                            </span>
+
+                            <span class="project-year">
+
+                                2026
+
+                            </span>
+
+                        </div>
+
+                        <!-- Project Title -->
+
+                        <h3 class="project-title">
+
+                            Restaurant Management System
+
+                        </h3>
+
+                        <!-- Project Status -->
+
+                        <span class="project-status completed">
+
+                            Completed
+
+                        </span>
+
+                        <!-- Project Description -->
+
+                        <p class="project-description">
+
+                            Console application developed in Java to manage customers,
+                            reservations, tables, orders, billing and reports using
+                            Object-Oriented Programming principles.
+
                         </p>
 
-                        <a href="projects/restaurant.html">
+                        <!-- Technologies -->
 
-                            View Project →
+                        <section class="project-technologies">
 
-                        </a>
+                            <h4>
 
-                    </article>
+                                Technologies
 
-                    <article class="card project-card">
+                            </h4>
 
-                        <h3>Robotic Arm CAD</h3>
+                            <ul class="technology-list">
 
-                        <p>
-                            Mechanical modeling using Autodesk Inventor.
-                        </p>
+                                <li>
 
-                        <a href="projects/robotic-arm.html">
+                                    <strong>Java</strong>
 
-                            View Project →
+                                </li>
 
-                        </a>
+                                <li>
 
-                    </article>
+                                    <strong>Object-Oriented Programming</strong>
 
-                    <article class="card project-card">
+                                </li>
 
-                        <h3>Electromagnetic Brake</h3>
+                                <li>
 
-                        <p>
-                            Electromagnetic braking and energy generation
-                            system.
-                        </p>
+                                    <strong>Collections Framework</strong>
 
-                        <a href="projects/electromagnetic-brake.html">
+                                </li>
 
-                            View Project →
+                                <li>
 
-                        </a>
+                                    <strong>Git & GitHub</strong>
 
-                    </article>
+                                </li>
+
+                            </ul>
+
+                        </section>
+
+                        <!-- Project Links -->
+
+                        <div class="project-buttons">
+
+                            <a
+                                href="https://github.com/MatiasMontesdeoca"
+                                target="_blank"
+                                class="button secondary-button">
+
+                                GitHub
+
+                            </a>
+
+                            <a
+                                href="projects/restaurant-management.html"
+                                class="button primary-button">
+
+                                Case Study
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+                </div>
+
+                <div class="projects-footer">
+
+                    <a
+                        href="projects.html"
+                        class="button secondary-button">
+
+                        View All Projects →
+
+                    </a>
 
                 </div>
 
@@ -364,8 +545,8 @@
         </section>
 
         <!-- =====================================
-             EDUCATION
-        ====================================== -->
+        EDUCATION
+        ===================================== -->
 
         <section id="education" class="education">
 
@@ -373,21 +554,117 @@
 
                 <div class="section-header">
 
-                    <h2>Education</h2>
+                    <h2 class="section-title">
+
+                        Education
+
+                    </h2>
+
+                    <p class="section-description">
+
+                        My academic journey and educational milestones.
+
+                    </p>
 
                 </div>
 
-                <div class="card education-card">
+                <div class="timeline">
 
-                    <h3>
-                        Escuela Superior Politécnica del Litoral (ESPOL)
-                    </h3>
+                    <!-- Timeline Item -->
 
-                    <p>B.Sc. in Mechatronics Engineering</p>
+                    <article class="timeline-item">
 
-                    <p>2023 – Present</p>
+                        <div class="timeline-marker">
 
-                    <p>Expected Graduation: 2028–2029</p>
+                            <span></span>
+
+                        </div>
+
+                        <div class="timeline-content card">
+
+                            <div class="timeline-date">
+
+                                <span class="timeline-year">
+
+                                    2023
+
+                                </span>
+
+                            </div>
+
+                            <h3 class="timeline-title">
+
+                                <span class="timeline-icon">🎓</span>
+
+                                <span>Mechatronics Engineering Start</span> 
+                            
+                            </h3>
+
+                            <h4>
+
+                                Escuela Superior Politécnica del Litoral (ESPOL)
+
+                            </h4>
+
+                            <p>
+
+                                Started my undergraduate studies in Mechatronics Engineering,
+                                focusing on programming, electronics, mechanical design,
+                                automation and control systems.
+
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Timeline Item -->
+
+                    <article class="timeline-item">
+
+                        <div class="timeline-marker">
+
+                            <span></span>
+
+                        </div>
+
+                        <div class="timeline-content card">
+
+                            <div class="timeline-date">
+
+                                <span class="timeline-year">
+                                    
+                                    2029
+
+                                </span>
+
+                            </div>
+
+                            <h3 class="timeline-title">
+
+                                <span class="timeline-icon">🎓</span>
+                                
+                                <span>Expected Graduation</span>
+
+                            </h3>
+
+                            <h4>
+
+                                Escuela Superior Politécnica del Litoral (ESPOL)
+
+                            </h4>
+
+                            <p>
+
+                                Continuing to strengthen my engineering
+                                knowledge while developing academic and
+                                personal projects.
+
+                            </p>
+
+                        </div>
+
+                    </article>
 
                 </div>
 
@@ -396,8 +673,8 @@
         </section>
 
         <!-- =====================================
-             CERTIFICATIONS
-        ====================================== -->
+        CERTIFICATIONS
+        ===================================== -->
 
         <section id="certifications" class="certifications">
 
@@ -405,15 +682,65 @@
 
                 <div class="section-header">
 
-                    <h2>Certifications</h2>
+                    <h2 class="section-title">
+
+                        Certifications
+
+                    </h2>
+
+                    <p class="section-description">
+
+                        Professional certification  that support my academic 
+                        and technical background.
+
+                    </p>
 
                 </div>
 
-                <div class="card certification-card">
+                <div class="certifications-grid">
 
-                    <h3>EF SET English Certificate</h3>
+                    <!-- Certification Card -->
 
-                    <p>English Level: C1 Advanced</p>
+                    <article class="card certification-card">
+
+                        <h3 class="certification-title">
+
+                            📜 EF SET English Certificate
+
+                        </h3>
+
+                        <ul class="certification-details">
+
+                            <li>
+
+                                <strong>Issuer:</strong> EF SET
+
+                            </li>
+
+                            <li>
+
+                                <strong>Level:</strong> C1 Advanced
+
+                            </li>
+
+                            <li>
+
+                                <strong>Date:</strong> 2025
+
+                            </li>
+
+                        </ul>
+
+                        <a
+                            href="#"
+                            target="_blank"
+                            class="button secondary-button">
+
+                            View Certificate
+
+                        </a>
+
+                    </article>
 
                 </div>
 
@@ -422,47 +749,132 @@
         </section>
 
         <!-- =====================================
-             CONTACT
-        ====================================== -->
+        CONTACT
+        ===================================== -->
 
         <section id="contact" class="contact">
 
             <div class="container">
 
+                <!-- Section Header -->
+
                 <div class="section-header">
 
-                    <h2>Let's Connect</h2>
+                    <h2 class="section-title">
 
-                    <p>
-                        Feel free to contact me for internships,
-                        collaborations or engineering opportunities.
+                        Let's Connect
+
+                    </h2>
+
+                    <p class="section-description">
+
+                        I'm always interested in discussing engineering,
+                        technology, new projects and opportunities.
+                        Feel free to reach out through any of the following
+                        channels :).
+
                     </p>
 
                 </div>
 
-                <div class="contact-links">
+                <!-- Contact Cards -->
 
-                    <a href="mailto:mathiasxmontesdeoca@gmail.com">
+                <div class="contact-grid">
 
-                        Email
+                    <!-- Email -->
+
+                    <a
+                        href="mailto:mathiasxmontesdeoca@gmail.com"
+                        class="card contact-card">
+
+                        <div class="contact-icon">
+
+                            📧
+
+                        </div>
+
+                        <h3 class="contact-title">
+
+                            Email
+
+                        </h3>
+
+                        <p class="contact-info">
+
+                            mathiasxmontesdeoca@gmail.com
+
+                        </p>
+
+                        <span class="contact-link">
+
+                            Send an Email →
+
+                        </span>
 
                     </a>
 
-                    <a
-                        href="https://github.com/MatiasMontesdeoca"
-                        target="_blank"
-                        rel="noopener noreferrer">
+                    <!-- LinkedIn -->
 
-                        GitHub
+                    <a
+                        href="https://linkedin.com/in/TU-LINKEDIN"
+                        target="_blank"
+                        class="card contact-card">
+
+                        <div class="contact-icon">
+
+                            💼
+
+                        </div>
+
+                        <h3 class="contact-title">
+
+                            LinkedIn
+
+                        </h3>
+
+                        <p class="contact-info">
+
+                            linkedin.com/in/TU-LINKEDIN
+
+                        </p>
+
+                        <span class="contact-link">
+
+                            Visit Profile →
+
+                        </span>
 
                     </a>
 
-                    <a
-                        href="TU_LINKEDIN"
-                        target="_blank"
-                        rel="noopener noreferrer">
+                    <!-- Phone -->
 
-                        LinkedIn
+                    <a
+                        href="tel:+593XXXXXXXXX"
+                        class="card contact-card">
+
+                        <div class="contact-icon">
+
+                            📱
+
+                        </div>
+
+                        <h3 class="contact-title">
+
+                            Phone
+
+                        </h3>
+
+                        <p class="contact-info">
+
+                            +593 984290041
+
+                        </p>
+
+                        <span class="contact-link">
+
+                            Call Me →
+
+                        </span>
 
                     </a>
 
@@ -474,20 +886,30 @@
 
     </main>
 
-    <!-- =========================================
-         FOOTER
-    ========================================== -->
+    <!-- =====================================
+     FOOTER
+    ===================================== -->
 
-    <footer>
+    <footer class="footer">
 
         <div class="container">
 
             <p>
-                © 2026 Matías Montesdeoca
+
+                Matías Montesdeoca
+
             </p>
 
             <p>
-                Built with HTML5, CSS3 & JavaScript.
+
+                Designed and developed with HTML, CSS & JavaScript.
+
+            </p>
+
+            <p>
+
+                Always learning. Always building.
+
             </p>
 
         </div>
