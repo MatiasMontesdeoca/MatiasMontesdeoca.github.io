@@ -1,0 +1,42 @@
+ /* =========================================
+   SKILLS
+========================================= */
+.skills-grid{
+
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+
+}
+
+.skill-card h3{
+
+    color: var(--primary-color);
+
+    margin-bottom: .75rem;
+
+}
+
+.skill-description{
+
+    color: var(--text-secondary);
+
+    font-size: .95rem;
+
+    margin-bottom: 1.25rem;
+
+}
+
+.skill-list{
+
+    list-style: disc;
+
+    padding-left: 1.25rem;
+
+}
+
+.skill-list li{
+
+    margin-bottom: .5rem;
+
+    color: var(--text-color);
+
+}

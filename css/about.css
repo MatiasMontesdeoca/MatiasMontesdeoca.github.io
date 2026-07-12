@@ -1,0 +1,27 @@
+/* =========================================
+   ABOUT
+========================================= */
+
+.about-content{
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 3rem;
+
+}
+
+.about-text{
+
+    flex: 2;
+
+}
+
+.about-description{
+
+    font-size: 1.05rem;
+
+    color: var(--text-secondary);
+
+}

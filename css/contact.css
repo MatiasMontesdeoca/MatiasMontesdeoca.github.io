@@ -1,0 +1,88 @@
+/* =========================================
+   CONTACT
+========================================= */
+.contact-grid{
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: 2rem;
+
+    margin-top: 3rem;
+
+}
+
+.contact-card{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1rem;
+
+    text-decoration: none;
+
+    color: inherit;
+
+    transition: var(--transition);
+
+}
+
+.contact-icon{
+
+    font-size: 2rem;
+
+}
+
+.contact-title{
+
+    color: var(--primary-color);
+
+    font-size: 1.3rem;
+
+}
+
+.contact-info{
+
+    color: var(--text-secondary);
+
+    line-height: 1.6;
+
+}
+
+.contact-link{
+
+    margin-top: auto;
+
+    font-weight: 600;
+
+    color: var(--primary-color);
+
+}
+
+.contact-card:hover{
+
+    transform: translateY(-6px);
+
+    box-shadow: 0 12px 30px rgba(0,0,0,.12);
+
+}
+
+.contact-card:hover .contact-icon{
+
+    transform: scale(1.15);
+
+}
+
+.contact-icon{
+
+    transition: var(--transition);
+
+}
+
+.contact-card{
+
+    cursor: pointer;
+
+}

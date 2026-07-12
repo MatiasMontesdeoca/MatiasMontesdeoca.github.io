@@ -1,0 +1,50 @@
+/* =========================================
+   CERTIFICATIONS
+========================================= */
+.certifications-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:2rem;
+
+    margin-top:3rem;
+
+}
+
+.certification-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:1.25rem;
+
+}
+
+.certification-title{
+
+    color:var(--primary-color);
+
+    font-size:1.3rem;
+
+}
+
+.certification-details{
+
+    list-style:none;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:.75rem;
+
+}
+
+.certification-details strong{
+
+    color:var(--primary-color);
+
+}

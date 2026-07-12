@@ -1,0 +1,235 @@
+/* =========================================
+   LARGE LAPTOPS
+========================================= */
+
+@media (max-width:1200px){
+
+    .container{
+
+        width:92%;
+
+    }
+
+}
+
+
+/* =========================================
+   TABLETS
+========================================= */
+
+@media (max-width:992px){
+
+
+    /* HEADER */
+
+    .header-container{
+
+        min-height:70px;
+
+    }
+
+
+    .menu-toggle{
+
+        display:block;
+
+    }
+
+
+    .navbar{
+
+        display:none;
+
+        position:absolute;
+
+        top:70px;
+
+        left:0;
+
+        width:100%;
+
+        background:var(--surface-color);
+
+        flex-direction:column;
+
+        align-items:center;
+
+        padding:2rem;
+
+        border-bottom:1px solid var(--border-color);
+
+    }
+
+
+    .navbar.active{
+
+        display:flex;
+
+    }
+
+
+
+    /* HERO */
+
+    .hero{
+
+        min-height:auto;
+
+        padding:4rem 0;
+
+    }
+
+
+    .hero-container{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+
+    .hero-image img{
+
+        width:260px;
+
+    }
+
+
+    .hero-content{
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+
+
+    /* GRIDS */
+
+
+    .projects-grid,
+    .certifications-grid,
+    .contact-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width:768px){
+
+
+    html{
+
+        font-size:15px;
+
+    }
+
+
+
+    /* HEADER */
+
+    .header-info h1{
+
+        font-size:1.3rem;
+
+    }
+
+
+
+    /* HERO */
+
+    .hero-title{
+
+        font-size:2.8rem;
+
+    }
+
+
+    .hero-image img{
+
+        width:220px;
+
+    }
+
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        width:100%;
+
+    }
+
+
+    .hero-buttons a{
+
+        width:100%;
+
+    }
+
+
+
+    /* ABOUT */
+
+    .about-content{
+
+        flex-direction:column;
+
+    }
+
+
+
+    /* PROJECT BUTTONS */
+
+    .project-buttons{
+
+        flex-direction:column;
+
+    }
+
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width:576px){
+
+
+    .section-header h2{
+
+        font-size:2rem;
+
+    }
+
+
+    .hero-title{
+
+        font-size:2.4rem;
+
+    }
+
+
+}

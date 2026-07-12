@@ -1,0 +1,38 @@
+/* =========================================
+   FOOTER
+========================================= */
+.footer{
+
+    margin-top: 6rem;
+
+    padding: 3rem 0;
+
+    text-align: center;
+
+    border-top: 1px solid var(--border-color);
+
+}
+
+.footer .container{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: .75rem;
+
+}
+
+.footer p{
+
+    color: var(--text-secondary);
+
+}
+
+.footer p:first-child{
+
+    font-weight: 600;
+
+    color: var(--text-color);
+
+}
